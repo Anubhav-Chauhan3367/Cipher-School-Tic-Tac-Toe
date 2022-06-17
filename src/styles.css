@@ -1,0 +1,144 @@
+body {
+	background-color: grey;
+	cursor: pointer;
+	caret-color: blue;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 15px;
+	/* grid-template-rows: 200px 200px 200px; */
+}
+
+.box {
+	display: flex;
+	width: auto;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+}
+
+/* .grid-item-1 {
+	border-right: 5px solid black;
+	border-bottom: 5px solid black;
+	grid-template: 1 2 / 1 2;
+}
+
+.grid-item-1:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-1:active {
+	background-color: rgb(193, 193, 237);
+}
+
+.grid-item-2 {
+	border: 5px solid black;
+	border-top: none;
+	grid-template: 1 2 / 2 3;
+}
+
+.grid-item-2:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-2:active {
+	background-color: rgb(193, 193, 237);
+}
+
+.grid-item-3 {
+	border-left: 5px solid black;
+	border-bottom: 5px solid black;
+	grid-template: 1 2 / 3 4;
+}
+
+.grid-item-3:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-3:active {
+	background-color: rgb(193, 193, 237);
+}
+
+.grid-item-4 {
+	border: 5px solid black;
+	border-left: none;
+	grid-template: 2 3 / 1 2;
+}
+
+.grid-item-4:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-4:active {
+	background-color: rgb(193, 193, 237);
+}
+
+.grid-item-5 {
+	border: 5px solid black;
+	grid-template: 2 3 / 2 3;
+}
+
+.grid-item-5:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-5:active {
+	background-color: rgb(193, 193, 237);
+}
+
+.grid-item-6 {
+	border: 5px solid black;
+	border-right: none;
+	grid-template: 2 3 / 3 4;
+}
+
+.grid-item-6:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-6:active {
+	background-color: rgb(193, 193, 237);
+}
+
+.grid-item-7 {
+	border-right: 5px solid black;
+	border-top: 5px solid black;
+	grid-template: 3 4 / 1 2;
+}
+
+.grid-item-7:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-7:active {
+	background-color: rgb(193, 193, 237);
+}
+
+.grid-item-8 {
+	border: 5px solid black;
+	border-bottom: none;
+	grid-template: 3 4 / 2 3;
+}
+
+.grid-item-8:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-8:active {
+	background-color: rgb(193, 193, 237);
+}
+.grid-item-9 {
+	border-left: 5px solid black;
+	border-top: 5px solid black;
+	grid-template: 3 4 / 3 4;
+}
+
+.grid-item-9:hover {
+	background-color: rgb(46, 46, 86);
+}
+
+.grid-item-9:active {
+	background-color: rgb(193, 193, 237);
+} */
